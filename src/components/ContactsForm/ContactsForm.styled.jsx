@@ -38,6 +38,10 @@ export const Input = styled.input`
   }
 `;
 export const SubmitButton = styled.button`
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
   font-size: 16px;
   line-height: 1.2;
   text-transform: uppercase;

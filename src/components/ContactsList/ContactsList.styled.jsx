@@ -19,6 +19,9 @@ export const ContactsName = styled.p`
   font-weight: 600;
 `;
 export const DeleteButton = styled.button`
+  display: flex;
+  gap: 8px;
+  align-items: center;
   font-size: 12px;
   font-weight: 600;
   line-height: 1.2;

@@ -8,6 +8,9 @@ export const FilterBox = styled.div`
   padding: 0 16px;
 `;
 export const Label = styled.label`
+  display: flex;
+  gap: 8px;
+  align-items: center;
   font-size: 20px;
   line-height: 1.2;
   font-weight: 600;

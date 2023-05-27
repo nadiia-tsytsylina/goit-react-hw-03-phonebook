@@ -5,6 +5,7 @@ import {
   ContactsName,
   DeleteButton,
 } from './ContactsList.styled';
+import { FaTrashAlt } from 'react-icons/fa';
 
 export default function ContactsList({ contacts, onClick }) {
   return (
@@ -16,6 +17,7 @@ export default function ContactsList({ contacts, onClick }) {
             <p>{contact.number}</p>
             <DeleteButton type="button" onClick={() => onClick(contact.id)}>
               Delete
+              <FaTrashAlt />
             </DeleteButton>
           </ContactsItem>
         );

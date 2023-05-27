@@ -7,6 +7,7 @@ import {
   Input,
   SubmitButton,
 } from './ContactsForm.styled';
+import { TiUserAdd } from 'react-icons/ti';
 
 class ContactsForm extends Component {
   state = {
@@ -63,7 +64,9 @@ class ContactsForm extends Component {
           />
         </InputBox>
 
-        <SubmitButton type="submit">Add contact</SubmitButton>
+        <SubmitButton type="submit">
+          Add contact <TiUserAdd />{' '}
+        </SubmitButton>
       </Form>
     );
   }
