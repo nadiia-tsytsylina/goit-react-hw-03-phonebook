@@ -1,13 +1,16 @@
 import styled from '@emotion/styled';
 
 export const Form = styled.form`
-  padding: 20px;
-  border: 2px solid #245852;
+  padding: 24px;
   border-radius: 12px;
-  background-color: #ccebe2;
+  background: radial-gradient(
+    183.6% 183.01% at 59.76% -23.42%,
+    #4f2ee8 18.03%,
+    #ffffff 100%
+  );
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 16px;
   margin-bottom: 20px;
 `;
 export const InputBox = styled.div`
@@ -19,11 +22,12 @@ export const Label = styled.label`
   font-size: 20px;
   line-height: 1.2;
   font-weight: 600;
+  color: #ffffff;
 `;
 export const Input = styled.input`
-  border: 2px solid #245852;
+  border: 2px solid #ffffff;
   border-radius: 12px;
-  padding: 4px 8px;
+  padding: 8px 16px;
   font-size: 16px;
   line-height: 1.2;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -34,21 +38,23 @@ export const Input = styled.input`
   }
 `;
 export const SubmitButton = styled.button`
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.2;
   text-transform: uppercase;
-  padding: 8px;
-  background-color: #245852;
-  color: #ffffff;
+  padding: 12px;
+  background-color: #ffffff;
+  color: #111111;
   font-weight: 600;
-  border: 0;
-  border-radius: 8px;
+  border: 2px solid #4f2ee8;
+  border-radius: 24px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   :hover,
   :focus {
     box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.15);
-    background-color: #153532;
+    background-color: #4f2ee8;
+    color: #ffffff;
   }
 `;

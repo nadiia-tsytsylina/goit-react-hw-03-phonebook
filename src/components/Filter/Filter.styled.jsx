@@ -3,17 +3,17 @@ import styled from '@emotion/styled';
 export const FilterBox = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  margin-bottom: 16px;
+  gap: 12px;
+  margin-bottom: 20px;
   padding: 0 16px;
 `;
 export const Label = styled.label`
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.2;
   font-weight: 600;
 `;
 export const Input = styled.input`
-  border: 2px solid #ccebe2;
+  border: 2px solid #4f2ee8;
   border-radius: 12px;
   padding: 4px 8px;
   font-size: 16px;

@@ -13,15 +13,15 @@ export const Container = styled.div`
 `;
 export const Title = styled.h1`
   text-align: center;
-  font-size: 36px;
+  font-size: 40px;
   line-height: 1.2;
   margin-bottom: 20px;
-  color: #153532;
+  color: #4f2ee8;
 `;
 export const SubTitle = styled.h2`
   text-align: center;
-  font-size: 24px;
+  font-size: 32px;
   line-height: 1.2;
   margin-bottom: 16px;
-  color: #153532;
+  color: #4f2ee8;
 `;
